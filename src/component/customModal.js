@@ -7,7 +7,7 @@ const CustomModal = ({title, visible, onOk, onCancel, ...props}) => {
     <div className="custom-modal">
      <div className="title">${title}</div>
      {props.children}
-     <button className="closeBtn">✖</button>
+     <button className="closeBtn" onClick={onCancel}>✖</button>
     </div>
    </div>
  )
