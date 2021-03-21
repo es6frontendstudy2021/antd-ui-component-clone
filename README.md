@@ -22,8 +22,12 @@ npx create-next-app es6study2021-antd
 ## 목표
 Button, Input, Modal 등에 대한 클론코딩
 
-
+## 저의 상황 설명
+- 팬 홈피(죄송ㅋ)
 ## 기타 링크
 
-- https://ant.design/components/input/
+- https://ant.design/components/input
 - https://ant.design/components/button
+
+## 배웠던 것들
+- child component 전달

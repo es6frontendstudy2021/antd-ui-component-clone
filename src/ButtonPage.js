@@ -1,4 +1,5 @@
-import {Button} from "antd";
+import { Button } from "antd";
+import CustomButton from "./component/customButton";
 
 
 function Buttons(){
@@ -11,6 +12,14 @@ function Buttons(){
     <br />
     <Button type="text">Text Button</Button>
     <Button type="link">Link Button</Button>
+    <br />
+    <hr />
+    <CustomButton type="primary">주요 버튼</CustomButton><span>&nbsp;</span>
+    <CustomButton>기본 버튼</CustomButton><span>&nbsp;</span>
+    <CustomButton type="dashed">대시 버튼</CustomButton><span>&nbsp;</span>
+    <CustomButton type="text">Text Button</CustomButton><span>&nbsp;</span>
+    <CustomButton type="link">Link Button</CustomButton><span>&nbsp;</span>
+    <CustomButton type="primary" network={true}>Network Action Button</CustomButton><span>&nbsp;</span>
    </div>
  )
 }
